@@ -298,6 +298,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   slider: {fileID: 0}
+  RGB: 0
 --- !u!1 &315551287
 GameObject:
   m_ObjectHideFlags: 0
@@ -1047,16 +1048,16 @@ MonoBehaviour:
   m_FillRect: {fileID: 1058736072}
   m_HandleRect: {fileID: 1385350329}
   m_Direction: 0
-  m_MinValue: -180
-  m_MaxValue: 180
+  m_MinValue: 0
+  m_MaxValue: 1
   m_WholeNumbers: 0
-  m_Value: 65
+  m_Value: 0
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 252117909}
         m_TargetAssemblyTypeName: SliderControl, Assembly-CSharp
-        m_MethodName: SliderDemo_CubeRot
+        m_MethodName: SliderDemo_ClorChange
         m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

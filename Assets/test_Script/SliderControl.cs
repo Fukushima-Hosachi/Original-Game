@@ -8,6 +8,7 @@ public class SliderControl : MonoBehaviour
 {
     public Slider slider;
     public float RGB;
+    GameObject Square;
 
     //スライダーの値を「取得する」ためのパブリック変数を定義する関数
     //取得した値のCubeの回転への反映もここで行います。
@@ -38,6 +39,7 @@ public class SliderControl : MonoBehaviour
     {
 
         slider = GameObject.Find("Slider").GetComponent<Slider>();
+        gameObject.GetComponent<Renderer>().material.color = new Color(0, 0, 0);
         
     }
 
@@ -57,6 +59,9 @@ public class SliderControl : MonoBehaviour
 
         //R,G,Bの各値を0～255でスライダーで調整
         //スライダーの値をRGBに送る
+
+        gameObject.GetComponent<Renderer>().material.color = new Color(RGB , RGB, RGB);
+
     }
 
 }
