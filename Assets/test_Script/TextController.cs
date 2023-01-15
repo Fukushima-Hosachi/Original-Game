@@ -16,7 +16,8 @@ public class TextController : MonoBehaviour
 
     // Start is called before the first frame update
     void Start()
-    {        
+    {
+     
         //\n‚Å‰üs
         textlabel.text = charaname + "\n" + word[ num ] ;
         
