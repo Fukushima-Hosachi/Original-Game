@@ -58,6 +58,11 @@ public class SliderControl : MonoBehaviour
 
         gameObject.GetComponent<Renderer>().material.color = new Color(R, G, B);
 
+        if (R == 1 && G == 1 && B ==1)
+        {
+            Debug.Log("moon is too brignt");
+        }
+
     }
 
 
