@@ -1203,9 +1203,9 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1375536171}
         m_TargetAssemblyTypeName: SliderControl, Assembly-CSharp
-        m_MethodName: SliderDemo_ColorChangeR
+        m_MethodName: SliderDemo_ColorChangeB
         m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2464,7 +2464,7 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1375536171}
         m_TargetAssemblyTypeName: SliderControl, Assembly-CSharp
         m_MethodName: SliderDemo_ColorChangeR
         m_Mode: 0
@@ -2567,9 +2567,9 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1375536171}
         m_TargetAssemblyTypeName: SliderControl, Assembly-CSharp
-        m_MethodName: SliderDemo_ColorChangeR
+        m_MethodName: SliderDemo_ColorChangeG
         m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

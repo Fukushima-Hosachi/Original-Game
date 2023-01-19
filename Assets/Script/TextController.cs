@@ -3,13 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class TextController : MonoBehaviour
+public class TextController: MonoBehaviour
 {
 
     public Text textlabel;
     public string charaname;
     public string [] word;
     //public AudioClip sound;
+  
 
     private int num = 0;
     
@@ -17,12 +18,14 @@ public class TextController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-     
+        
         //\nで改行
         textlabel.text = charaname + "\n" + word[ num ] ;
         
 
         Debug.Log("first");
+
+        
     }
 
     // Update is called once per frame
@@ -41,6 +44,9 @@ public class TextController : MonoBehaviour
             textlabel.text = charaname + "\n" + word[num];
 
             Debug.Log("ボタンを押し、進みます");
+
+            
+
         }
 
         //AudioSource.PlayClipAtPoint(sound, Camera.main.transform.position);
