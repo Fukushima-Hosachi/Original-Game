@@ -20,7 +20,7 @@ public class TextController: MonoBehaviour
     {
         
         //\nで改行
-        textlabel.text = charaname + "\n" + word[ num ] ;
+        textlabel.text = charaname + "\n" + "\n" + word[ num ] ;
         
 
         Debug.Log("first");
@@ -41,7 +41,7 @@ public class TextController: MonoBehaviour
 
             num += 1;
 
-            textlabel.text = charaname + "\n" + word[num];
+            textlabel.text = charaname + "\n" + "\n" + word[num];
 
             Debug.Log("ボタンを押し、進みます");
 
