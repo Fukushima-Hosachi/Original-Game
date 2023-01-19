@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 
 
-public class SliderControl : MonoBehaviour
+public class SliderControl_test : MonoBehaviour
 {
     public Slider R_slider, G_slider, B_slider;
     //public float RGB;
@@ -61,6 +61,7 @@ public class SliderControl : MonoBehaviour
         if (R == 1 && G == 1 && B ==1)
         {
             Debug.Log("moon is too brignt");
+
         }
 
     }

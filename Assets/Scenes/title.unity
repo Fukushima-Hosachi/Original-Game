@@ -2264,15 +2264,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 1375536168}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c77f88cf73dcf974f99c4f6595809c60, type: 3}
+  m_Script: {fileID: 11500000, guid: 25bb61d454e2e654183e5d987038cd83, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   R_slider: {fileID: 1975851070}
   G_slider: {fileID: 2097977291}
-  B_slider: {fileID: 1226228865}
+  B_slider: {fileID: 1063384262}
   R: 0
   G: 0
   B: 0
+  button: {fileID: 2103883908}
 --- !u!1 &1407901082
 GameObject:
   m_ObjectHideFlags: 0
